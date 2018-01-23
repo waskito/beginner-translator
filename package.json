@@ -1,0 +1,22 @@
+{
+  "name": "beginner-translator",
+  "version": "1.0.0",
+  "description": "translator api connector",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "translate",
+    "google-translate"
+  ],
+  "author": "beginner",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "google-translate-api": "^2.3.0"
+  }
+}
